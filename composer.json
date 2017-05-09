@@ -1,0 +1,16 @@
+//Use Namespace Other Than YoMama
+{
+    "require-dev": {
+        "phpunit/phpunit": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "YoMama\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "YoMama\\Test\\": "tests/"
+        }
+    }
+}
